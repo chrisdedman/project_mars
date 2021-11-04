@@ -113,12 +113,13 @@ def main():
         # elif roverX < 0 or roverX > sw-0:
         #     main2()
         
-        # Close the game
+        # Close the game if the key q is pressed
         elif pressed[K_q] :
             event.type == pygame.QUIT
             looping = False
         
-        # Control the hazard if rover touch, game over!
+        # Control the hazard, if the rover touch the hazard, game over or lossing point
+        # Need to work in that
         # elif collide_rect(ROVER, HAZARD2):
         # elif pygame.sprite.spritecollideany(ROVER, HAZARD2):
         #     looping = False
