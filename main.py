@@ -4,7 +4,7 @@ from pygame import sprite
 from pygame.display import get_active
 from pygame.locals import *
 from pygame.sprite import Group, collide_rect, spritecollideany
-from land_two import main2
+#from land_two import main2
 from random import randint
 
 pygame.init()
