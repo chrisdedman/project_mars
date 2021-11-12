@@ -16,7 +16,7 @@ or
 ```
 $ pip3 install pygame
 ```
-## Authors
+## Author
 
 Contributors names and contact info
 
