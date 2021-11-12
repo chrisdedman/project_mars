@@ -117,13 +117,13 @@ def main():
         elif pressed[K_q] :
             event.type == pygame.QUIT
             looping = False
+#-----------------------------------------------------------------------------------------#       
+#-------- Control the hazard, if the rover touch the hazard, game over or lossing point---#
+#------------------------------ Need to work in this part --------------------------------#
+#-----------------------------------------------------------------------------------------#
+        if (roverX and roverY) == (hazard1X and hazard1Y) or (roverX and roverY) == (hazard2X and hazard2Y):
+            print("Game Over")
         
-        # Control the hazard, if the rover touch the hazard, game over or lossing point
-        # Need to work in that
-        # elif collide_rect(ROVER, HAZARD2):
-        # elif pygame.sprite.spritecollideany(ROVER, HAZARD2):
-        #     looping = False
-        #     print("Game Over")
           
 if __name__ == "__main__":
     main()
