@@ -1,10 +1,6 @@
 import pygame, sys, random
 from pygame import key
-from pygame import sprite
-from pygame.display import get_active
 from pygame.locals import *
-from pygame.sprite import Group, collide_rect, spritecollideany
-#from land_two import main2
 from random import randint
 
 pygame.init()
@@ -108,10 +104,6 @@ def main():
         elif (pressed[K_DOWN] or pressed[K_s]) :
             roverY = roverY + 3
             roverMoving = roverDown
-
-        # If the rover touch the border of the screen, he change of level
-        # elif roverX < 0 or roverX > sw-0:
-        #     main2()
         
         # Close the game if the key q is pressed
         elif pressed[K_q] :
