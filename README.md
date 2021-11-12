@@ -28,6 +28,6 @@ Contributors names and contact info
   * In Development
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](#LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details
 
 #### ***The Game is  in development, contact me if you would like to contribute. Thanks***
